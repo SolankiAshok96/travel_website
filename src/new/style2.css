@@ -1,0 +1,11 @@
+.header{
+    margin-top: 150px;
+    background-color: #FF4127;
+    color: white;
+    font-weight: 500;
+    font-family: poppins;
+}
+.para{
+    font-weight: 400;
+    line-height: 30px;
+}

@@ -1,0 +1,97 @@
+.main-layout-container {
+  background-color: white;
+  background-size: cover;
+  height: max-content;
+  text-align: center;
+}
+.rec-img {
+  height: 280px;
+  width: 170px;
+}
+h2 {
+  font-size: 36px;
+  font-weight: 600;
+}
+.first-container {
+  height: 30vh;
+}
+
+.top_service_content img {
+  width: 240px;
+  height: 350px;
+  border-radius: 25px;
+}
+
+.comingsoon {
+  width: 240px;
+  height: 350px;
+  border-radius: 25px;
+  border: 1px solid orangered;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Poppins;
+  font-size: 31px;
+  font-weight: 700;
+  line-height: 47px;
+  letter-spacing: 0em;
+  text-align: left;
+  color:  #3D3D3D;
+  ;
+}
+
+.top_service_content {
+  margin-top: 100px;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 100px;
+  flex-wrap: wrap;
+}
+
+.top_service_head {
+  height: 54px;
+  padding-right: 950px;
+}
+
+.top_service_head h1 {
+  font-family: Poppins;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 54px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.top_service_main {
+  margin-bottom: 100px;
+  padding-top: 100px;
+}
+
+@media (min-width: 300px) and (max-width: 500px){
+   .top_service_content{
+       display: flex;
+       justify-content: flex-start;
+       align-items: center;
+       flex-direction: row;
+   }
+
+   .top_service_content img{
+       width: 100px;
+       height: 100px;
+   }
+
+   .comingsoon{
+    width: 100px;
+       height: 100px;
+      font-size: 20px;
+      text-align: center;
+   }
+
+   .top_service_heading{
+     font-size: 30px;
+     
+   }
+}

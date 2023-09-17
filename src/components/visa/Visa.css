@@ -1,0 +1,608 @@
+.visa {
+  overflow-x: hidden;
+}
+.visa-img {
+  height: 100vh;
+  background-color: cover;
+}
+
+.head {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left {
+  width: 70%;
+  height: 162px;
+  top: 215px;
+  border: 1px;
+  padding-left: 100px;
+}
+
+.left .left_heading {
+  font-weight: 700;
+  size: 54px;
+}
+
+.left .left_para {
+  font-family: "poppins";
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 51px;
+}
+
+.travel_info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  gap: 20px;
+  width: 90vw;
+  margin: 50px;
+  border-radius: 10px;
+  position: absolute;
+  top: 559px;
+  height: 101px;
+  box-shadow: 0px 4px 25px #000000;
+}
+
+label {
+  font-family: "poppins";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  padding-right: 10px;
+}
+
+.options {
+  width: 237px;
+  height: 44px;
+  border-radius: 5px;
+  border: 1px solid #959595;
+}
+
+.from {
+  margin-left: 92px;
+}
+
+.check_button {
+  width: 172px;
+  height: 36px;
+  border-radius: 5px;
+  background-color: #ff4127;
+  color: white;
+  font-style: "poppins";
+  font-size: 16px;
+  line-height: 24px;
+  margin-left: 30px;
+}
+
+.popular_destination {
+  margin-top: 100px;
+}
+
+.text_content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left_text_content {
+  padding-left: 100px;
+  font-family: "poppins";
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+  padding-left: 140px;
+}
+
+.right_text_content {
+  font-family: "poppins";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.popular_img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.left_img {
+  padding-right: 5px;
+  position: relative;
+}
+
+.left_img img {
+  height: 340px;
+  width: 339px;
+}
+.left_img_content {
+  position: absolute;
+  bottom: 8px;
+  font-family: "poppins";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  background-color: #ffffffb2;
+  width: 100%;
+  padding-left: 10px;
+}
+
+.middle_img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.middle_bottom_img {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+}
+
+.right_img {
+  padding-left: 5px;
+}
+
+.middle_top_img {
+  position: relative;
+}
+
+.middle_img_content {
+  position: absolute;
+  bottom: 8px;
+  font-family: "poppins";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  background-color: #ffffffb2;
+  width: 100%;
+  padding-left: 10px;
+}
+
+.middle_bottom_left {
+  position: relative;
+}
+
+.right_img {
+  position: relative;
+}
+
+.visa_status {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  align-items: center;
+}
+
+.left_visa_heading {
+  width: 335px;
+  height: 54px;
+  font-family: "poppins";
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+  align-items: center;
+}
+
+.left_visa {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 150px;
+  text-align: center;
+}
+
+.left_input label {
+  height: 36px;
+  font-family: "poppins";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.visa_input {
+  width: 230px;
+  height: 43px;
+  color: #ffffffb2;
+  border: 1px solid #959595;
+}
+
+.visa_submit {
+  width: 137px;
+  height: 45px;
+
+  margin-top: 20px;
+  background-color: #ff4127;
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: "poppins";
+}
+
+.work_heading {
+  padding-left: 68px;
+}
+
+.works_Para {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100vw;
+  margin-top: 50px;
+}
+
+.work_para_left {
+  width: 228px;
+  height: 40px;
+  border-radius: 23px;
+  border: 1px solid #ff4127;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  font-size: 500;
+  line-height: 24px;
+  font-family: "poppins";
+  background-color: #ff4127;
+  color: white;
+}
+
+.work_other_para {
+  width: 228px;
+  height: 40px;
+  border-radius: 23px;
+  border: 1px solid #ff4127;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  font-size: 500;
+  line-height: 24px;
+  font-family: "poppins";
+  background-color: white;
+  color: #ff4127;
+}
+
+.work_box {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+flex-wrap: wrap;
+}
+
+.work_boxes {
+  margin-top: 50px;
+  width: 287px;
+  height: 216px;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 20px #3d3d3d;
+  border-radius: 10px;
+}
+
+.work_box_top {
+  box-shadow: 0px 4px 20px #3d3d3d;
+
+  width: 287px;
+  height: 81px;
+  background-color: #ff4127;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-family: "poppins";
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.work_box_bottom {
+  width: 287px;
+  height: 63px;
+  font-family: "poppins";
+  font-weight: 500;
+  line-height: 21px;
+  color: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 70px;
+}
+
+.work_button {
+  width: 204px;
+  height: 45px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-family: "poppins";
+  font-weight: 700;
+  line-height: 24px;
+  color: #ffffff;
+  background-color: #ff4127;
+  text-align: center;
+
+  margin-top: 50px;
+}
+
+.work_flex_button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.user_boxs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user_box {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 551px;
+  height: 302px;
+  border-radius: 5px;
+  border: 1px solid #ff4127;
+  margin: 10px;
+  gap: 4px;
+  padding-top: 10px;
+  padding-left: 20px;
+}
+
+.user_box h6 {
+  width: 105px;
+  height: 27px;
+  font-family: "poppins";
+  font-weight: 600;
+  font-style: 18px;
+  line-height: 27px;
+  color: #000000;
+}
+
+.user_box .user_proff {
+  width: 94px;
+  height: 21px;
+  font-family: "poppins";
+  font-weight: 400;
+  font-style: 14px;
+  line-height: 21px;
+  color: #000000;
+}
+
+.user_box .user_say {
+  width: 491px;
+  height: 79px;
+  font-family: "poppins";
+  font-weight: 400;
+  font-style: italic;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.user_box img {
+  width: 84px;
+  height: 84px;
+}
+
+.words_users {
+  margin-top: 100px;
+}
+.words_user_head {
+  height: 54px;
+  margin-left: 66px;
+  font-family: "poppins";
+  font-weight: 700;
+  line-height: 5px;
+  align-items: center;
+}
+
+.user_arrow img {
+  display: -webkit-box;
+  margin-left: auto;
+  background-color: #ff4127;
+  border: 2px solid #ffffff;
+  height: 30px;
+  padding-right: 10px;
+}
+
+.freq_ask_box {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.freq_ask_top {
+  width: 929px;
+  height: 162px;
+  border-radius: 7px;
+  background-color: #f1f1f1;
+}
+
+.frequently_ask_questions {
+  margin-left: 70px;
+}
+
+.freq_top_heading {
+  height: 30px;
+  font-family: "poppins";
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: #000000;
+}
+
+.freq_ask_top {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  padding-left: 96px;
+  padding-top: 15px;
+}
+
+.freq_top_para {
+  font-size: "poppins";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #000000;
+}
+
+.freq_ask_other {
+  width: 929px;
+  height: 100px;
+  border-radius: 7px;
+  background-color: #f1f1f1;
+  margin-top: 10px;
+}
+
+.frequently_ask_questions {
+  margin-top: 100px;
+}
+
+.freq_ask_other_head {
+  padding-left: 96px;
+  font-family: "poppins";
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: #000000;
+  padding-top: 20px;
+}
+
+@media (min-width: 300px) and (max-width: 500px) {
+  .left_heading {
+    font-size: 20px;
+  }
+
+  .head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+  .left_para {
+    display: none;
+  }
+
+  .travel_info {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 250px;
+    width: 400px;
+  }
+
+  .where {
+    width: 200px;
+    margin-right: 10px;
+  }
+
+  .popular_destination {
+    padding-top: 100px;
+  }
+
+  .popular_img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .middle_bottom_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .m_img img {
+    width: 259px;
+    height: 176px;
+    flex-shrink: 0;
+    margin-bottom: 10px;
+  }
+
+  .right_visa{
+     display: none;
+  }
+
+  .left_visa{
+     margin-right: 100px;
+     text-align: left;
+    
+     height: 250px;
+  }
+   
+  .left_visa_heading{
+     font-size: 25px;
+  }
+
+  .words_user_head{
+     font-size: 20px;
+  }
+   .user_box{
+      width: 420px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+   }
+   .user_boxs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+ }
+
+   .user_box .user_say{
+    font-size: 14px;
+     width: 400px;
+   }
+
+   .freq_ask_top{
+     height: 150px;
+     width: 400px;
+     display: flex;
+     justify-content: center;
+     text-align: center;
+     flex-direction: column;
+   }
+
+   .freq_ask_other{
+    height: 100px;
+    width: 400px;
+  }
+
+  .freq_top_heading{
+     font-size: 15px;
+     margin-right: 20px;
+  }
+
+  .freq_top_para{
+     font-size: 12px;
+  }
+
+  .freq_ask_other_head{
+    font-size: 15px;
+  }
+}

@@ -1,0 +1,27 @@
+.main-popular-container{
+    background-color: white;
+    background-size: cover;
+    height:max-content;
+}
+h2{
+    font-size: 40px;
+    font-weight: 600;
+}
+.popular-img{
+    height: 200px;
+    width: 200px;
+}
+
+@media (min-width: 300px) and (max-width: 500px){
+    .popular_dest{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .popular_dest img{
+        height: 100px;
+        width: 100px;
+    }
+}
